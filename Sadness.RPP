@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.82/linux-x86_64" 1791837039 0
+<REAPER_PROJECT 0.1 "7.82/linux-x86_64" 1793446935 0
   <NOTES 0 2
   >
   RIPPLE 0 0
@@ -7,7 +7,7 @@
   ENVATTACH 3
   POOLEDENVATTACH 0
   TCPUIFLAGS 0
-  MIXERUIFLAGS 11 48 0
+  MIXERUIFLAGS 11 48 1408
   ENVFADESZ10 40
   PEAKGAIN 1
   FEEDBACK 0
@@ -19,8 +19,8 @@
   VIDEO_CONFIG 0 0 65792
   PANMODE 3
   PANLAWFLAGS 3
-  CURSOR 216
-  ZOOM 69.66017842343805 13087 0
+  CURSOR 214.15384615384616
+  ZOOM 69.66017842343805 13311 0
   VZOOMEX 2 0
   USE_REC_CFG 0
   RECMODE 1
@@ -77,8 +77,8 @@
   TEMPO 130 6 6 0
   PLAYRATE 1 0 0.25 4
   GROUPS_DISABLED 1 0
-  SELECTION 44.30769230769231 0
-  SELECTION2 44.30769230769231 0
+  SELECTION 210.46153846153845 221.53846153846155
+  SELECTION2 210.46153846153845 221.53846153846155
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -129,7 +129,7 @@
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
     LANEREC -1 -1 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -2027,110 +2027,114 @@
         HASDATA 1 960 QN
         CCINTERP 32
         POOLEDEVTS {C0127066-ECC9-E135-E610-4F800638DB88}
-        e 0 90 2c 59
+        E 0 90 2c 5a
+        E 80 80 2c 00
+        E 240 90 2c 5a
+        E 80 80 2c 00
+        E 240 90 2c 5a
+        E 80 80 2c 00
+        E 240 90 2c 5a
+        E 80 80 2c 00
+        E 240 90 2c 5a
+        E 80 80 2c 00
+        E 240 90 2c 5a
+        E 80 80 2c 00
+        E 240 90 2c 5a
+        E 80 80 2c 00
+        E 240 90 2c 5a
+        E 80 80 2c 00
+        E 240 90 2c 5a
+        E 80 80 2c 00
+        E 80 90 2c 5a
+        E 80 80 2c 00
+        E 80 90 2c 5a
+        E 80 80 2c 00
+        E 80 90 2c 5a
+        E 80 80 2c 00
+        E 80 90 2c 5a
+        E 80 80 2c 00
+        E 80 90 2c 5a
+        E 80 80 2c 00
+        E 80 90 2c 5a
+        E 80 80 2c 00
+        E 240 90 2c 5a
+        E 80 80 2c 00
+        E 240 90 2c 5a
+        E 80 80 2c 00
+        E 240 90 2c 5a
+        E 80 80 2c 00
+        E 240 90 2c 5a
+        E 80 80 2c 00
+        E 240 90 2c 5a
+        E 80 80 2c 00
+        E 240 90 2c 5a
+        E 80 80 2c 00
+        E 240 90 2c 5a
+        E 80 80 2c 00
+        E 240 90 2c 5a
+        E 80 80 2c 00
+        E 240 90 2c 5a
+        E 80 80 2c 00
+        E 80 90 2c 5a
+        E 80 80 2c 00
+        E 80 90 2c 5a
+        E 80 80 2c 00
+        E 80 90 2c 5a
+        E 80 80 2c 00
+        E 80 90 2c 5a
+        E 80 80 2c 00
+        e 80 90 2c 5a
         e 80 80 2c 00
-        e 241 90 2c 5d
-        e 80 80 2c 00
-        e 259 90 2c 54
-        e 80 80 2c 00
-        e 224 90 2c 5c
-        e 80 80 2c 00
-        e 224 90 2c 59
-        e 80 80 2c 00
-        e 261 90 2c 59
-        e 80 80 2c 00
-        e 224 90 2c 5a
-        e 80 80 2c 00
-        e 251 90 2c 5a
-        e 80 80 2c 00
-        e 246 90 2c 4e
-        e 80 80 2c 00
-        e 24 90 2c 58
-        e 80 80 2c 00
-        e 129 90 2c 5c
-        e 80 80 2c 00
-        e 73 90 2c 55
-        e 80 80 2c 00
-        e 85 90 2c 5c
-        e 80 80 2c 00
-        e 241 90 2c 5c
-        e 80 80 2c 00
-        e 228 90 2c 5a
-        e 80 80 2c 00
-        e 259 90 2c 56
-        e 80 80 2c 00
-        e 260 90 2c 5d
-        e 80 80 2c 00
-        e 205 90 2c 53
-        e 80 80 2c 00
-        e 223 90 2c 63
-        e 80 80 2c 00
-        e 262 90 2c 56
-        e 80 80 2c 00
-        e 221 90 2c 5d
-        e 80 80 2c 00
-        e 234 90 2c 59
-        e 80 80 2c 00
-        e 278 90 2c 56
-        e 80 80 2c 00
-        e 81 90 2c 59
-        e 80 80 2c 00
-        e 58 90 2c 55
-        e 80 80 2c 00
-        e 95 90 2c 59
-        e 80 80 2c 00
-        e 69 90 2c 5f
-        e 80 80 2c 00
-        e 247 90 2c 5a
-        e 80 80 2c 00
-        e 250 90 33 5f
-        e 80 80 33 00
-        e 225 90 33 5a
-        e 80 80 33 00
-        e 224 90 33 57
-        e 80 80 33 00
-        e 255 90 33 54
-        e 80 80 33 00
-        e 235 90 33 5b
-        e 80 80 33 00
-        e 223 90 33 61
-        e 80 80 33 00
-        e 269 90 33 5e
-        e 80 80 33 00
-        e 243 90 33 50
-        e 80 80 33 00
-        e 225 90 33 58
-        e 80 80 33 00
-        e 101 90 33 56
-        e 80 80 33 00
-        e 75 90 33 57
-        e 80 80 33 00
-        e 51 90 33 5a
-        e 80 80 33 00
-        e 91 90 33 5c
-        e 80 80 33 00
-        e 258 90 33 57
-        e 80 80 33 00
-        e 247 90 35 59
-        e 80 80 35 00
-        e 217 90 35 59
-        e 80 80 35 00
-        e 257 90 35 56
-        e 80 80 35 00
-        e 226 90 35 5b
-        e 80 80 35 00
-        e 274 90 35 5b
-        e 80 80 35 00
-        e 220 90 35 5c
-        e 80 80 35 00
-        e 221 90 35 5b
-        e 80 80 35 00
-        e 260 90 35 5b
-        e 80 80 35 00
-        e 229 90 3b 25
-        e 80 80 3b 00
-        e 542 90 3b 21
-        e 80 80 3b 00
+        E 80 90 2c 5a
+        E 80 80 2c 00
+        E 252 90 33 5f
+        E 80 80 33 00
+        E 225 90 33 5a
+        E 80 80 33 00
+        E 224 90 33 57
+        E 80 80 33 00
+        E 255 90 33 54
+        E 80 80 33 00
+        E 235 90 33 5b
+        E 80 80 33 00
+        E 223 90 33 61
+        E 80 80 33 00
+        E 269 90 33 5e
+        E 80 80 33 00
+        E 243 90 33 50
+        E 80 80 33 00
+        E 225 90 33 58
+        E 80 80 33 00
+        E 101 90 33 56
+        E 80 80 33 00
+        E 75 90 33 57
+        E 80 80 33 00
+        E 51 90 33 5a
+        E 80 80 33 00
+        E 91 90 33 5c
+        E 80 80 33 00
+        E 258 90 33 57
+        E 80 80 33 00
+        E 247 90 35 59
+        E 80 80 35 00
+        E 217 90 35 59
+        E 80 80 35 00
+        E 257 90 35 56
+        E 80 80 35 00
+        E 226 90 35 5b
+        E 80 80 35 00
+        E 274 90 35 5b
+        E 80 80 35 00
+        E 220 90 35 5c
+        E 80 80 35 00
+        E 221 90 35 5b
+        E 80 80 35 00
+        E 260 90 35 5b
+        E 80 80 35 00
+        E 229 90 3b 25
+        E 80 80 3b 00
+        E 542 90 3b 21
+        E 80 80 3b 00
         E 580 b0 7b 00
         CCINTERP 32
         CHASE_CC_TAKEOFFS 1
@@ -2140,7 +2144,7 @@
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
         VELLANE -1 217 0 0 1
         VELLANE -2 217 217 0 1
-        CFGEDITVIEW 12690.14059 0.313646 68 32 0 0 0 0 0 0.5
+        CFGEDITVIEW 11531 0.313646 64 32 0 0 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 252
         CFGEDIT 1 1 0 1 0 17 1 1 1 1 1 0.08333333 777 327 3615 1919 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
@@ -3566,7 +3570,7 @@
       FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
       COLOR 25654015 B
-      SEL 1
+      SEL 0
       IGUID {C94E7F80-B408-B3FD-A908-653141077015}
       IID 129
       NAME Post_Final_Break
@@ -3709,7 +3713,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 50 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -3737,7 +3741,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 50 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -3765,7 +3769,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 50 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -3811,7 +3815,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 50 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -3857,7 +3861,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 50 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -3903,7 +3907,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 50 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -3949,7 +3953,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 50 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -3970,14 +3974,14 @@
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
-    BUSCOMP 1 0 0 0 0
+    BUSCOMP 2 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
     LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 50 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -4022,7 +4026,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -4055,7 +4059,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -4076,14 +4080,14 @@
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
-    BUSCOMP 1 0 0 0 0
+    BUSCOMP 2 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
     LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 50 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -4128,7 +4132,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -4156,7 +4160,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -4177,14 +4181,14 @@
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
-    BUSCOMP 0 0 0 0 0
+    BUSCOMP 1 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
     LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 50 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -4229,7 +4233,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -4257,7 +4261,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -4278,14 +4282,14 @@
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
-    BUSCOMP 0 0 0 0 0
+    BUSCOMP 1 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
     LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 50 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -4330,7 +4334,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -4358,7 +4362,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -4386,7 +4390,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -4422,6 +4426,570 @@
     PERF 0
     MIDIOUT -1 -1
     MAINSEND 1 0
+    <ITEM
+      POSITION 29.53846153846154
+      SNAPOFFS 0
+      LENGTH 14.76923076923077
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4E139BBD-6F59-0F91-4890-CFD751A73E32}
+      IID 130
+      NAME 22-GuitarLeft-261031_1139.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.00000348857492
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 25188351 B
+      GUID {F1203E1E-0CA5-AD15-96D2-3E6F0E3DAB5A}
+      RECPASS 1
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1139.wav"
+      >
+      TAKE SEL
+      NAME 22-GuitarLeft-261031_1139.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 14.76923251351823
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 25116799 B
+      GUID {DC78A5A2-0767-1D5D-F49D-A14278F1DF38}
+      RECPASS 2
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1139.wav"
+      >
+      TAKE
+      NAME 22-GuitarLeft-261031_1139.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 29.53846153846154
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 27134805 B
+      GUID {95F7137E-5B8F-D3BB-F2D2-4DAF41794A01}
+      RECPASS 3
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1139.wav"
+      >
+      TAKE
+      NAME 22-GuitarLeft-261031_1139.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 44.3077132391418
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 33517752 B
+      GUID {A55889EE-D337-E76D-E871-9D42C7DE17FB}
+      RECPASS 4
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1139.wav"
+      >
+    >
+    <ITEM
+      POSITION 59.07692307692308
+      SNAPOFFS 0
+      LENGTH 14.76923076923076
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C1523328-0050-B592-D1B9-77686AD55B19}
+      IID 137
+      NAME 22-GuitarLeft-261031_1147.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.00000697714984
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 29488500 B
+      GUID {39944F92-7442-DB85-0C94-9EBBA3A451EC}
+      RECPASS 16
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1147.wav"
+      >
+      TAKE
+      NAME 22-GuitarLeft-261031_1147.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 14.76923600209315
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 32341970 B
+      GUID {A1434D81-A4AD-F426-5B99-536EF2BCF104}
+      RECPASS 17
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1147.wav"
+      >
+      TAKE SEL
+      NAME 22-GuitarLeft-261031_1147.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 29.53846502703646
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 24936703 B
+      GUID {84D5D84D-8D03-5468-31D6-44C944FE3493}
+      RECPASS 18
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1147.wav"
+      >
+      TAKE
+      NAME 22-GuitarLeft-261031_1147.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 44.30769405197977
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 24199281 B
+      GUID {7ED71C0B-EC4E-DEC9-7419-2DF8C82D9125}
+      RECPASS 19
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1147.wav"
+      >
+    >
+    <ITEM
+      POSITION 73.84615384615384
+      SNAPOFFS 0
+      LENGTH 7.38461538461539
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D7DDE1AA-27B1-2B72-1863-88B86CCD095F}
+      IID 139
+      NAME 22-GuitarLeft-261031_1150.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.00000872143728
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 25292718 B
+      GUID {B0FA773F-AF19-7C64-5CD6-969A6BE99E5B}
+      RECPASS 24
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1150.wav"
+      >
+      TAKE
+      NAME 22-GuitarLeft-261031_1150.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 7.38461189604046
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 26148860 B
+      GUID {3CAA8140-B814-E386-C2EF-2408B52BE34A}
+      RECPASS 25
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1150.wav"
+      >
+      TAKE
+      NAME 22-GuitarLeft-261031_1150.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 14.76921507064364
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 28575089 B
+      GUID {6F528523-5478-F642-F0C4-207AA44121B9}
+      RECPASS 26
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1150.wav"
+      >
+      TAKE SEL
+      NAME 22-GuitarLeft-261031_1150.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 22.15381824524681
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 31422695 B
+      GUID {49BCF400-6F27-83C2-E828-5D86028161DC}
+      RECPASS 27
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1150.wav"
+      >
+      TAKE
+      NAME 22-GuitarLeft-261031_1150.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 29.53842141984999
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 28435860 B
+      GUID {3745DD4F-2E7E-D13D-0CBD-8B01E78721B1}
+      RECPASS 28
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1150.wav"
+      >
+    >
+    <ITEM
+      POSITION 96
+      SNAPOFFS 0
+      LENGTH 14.76923076923077
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {33545E41-0A70-B1F2-CC7A-E47DD04F1612}
+      IID 143
+      NAME 22-GuitarLeft-261031_1155.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 30775437 B
+      GUID {056CC93F-2769-BD39-FF81-B01122A3744C}
+      RECPASS 42
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1155.wav"
+      >
+      TAKE
+      NAME 22-GuitarLeft-261031_1155.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 14.76922902494331
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 32275158 B
+      GUID {75A8101A-67A2-3C1B-4743-DB193F84509D}
+      RECPASS 43
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1155.wav"
+      >
+      TAKE SEL
+      NAME 22-GuitarLeft-261031_1155.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 29.53845804988662
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 26876608 B
+      GUID {40C96D34-D068-4FF6-F06C-0ABCE1A54C02}
+      RECPASS 44
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1155.wav"
+      >
+      TAKE
+      NAME 22-GuitarLeft-261031_1155.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 44.30768707482993
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 26214239 B
+      GUID {8BFA9120-DCF6-337C-FFAD-00284F261D25}
+      RECPASS 45
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1155.wav"
+      >
+    >
+    <ITEM
+      POSITION 110.76923076923077
+      SNAPOFFS 0
+      LENGTH 7.38461538461539
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CAC4E1E6-FE66-F8ED-BCAD-7DBE1C062F3E}
+      IID 145
+      NAME 22-GuitarLeft-261031_1158.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.00000174428746
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 17801837 B
+      GUID {F1818560-73F2-8428-FE46-439D1587C017}
+      RECPASS 49
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1158.wav"
+      >
+      TAKE
+      NAME 22-GuitarLeft-261031_1158.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 7.38460491889064
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 29760923 B
+      GUID {DE8BBC18-9611-7D9C-8DBA-1A8CD5D8B68A}
+      RECPASS 50
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1158.wav"
+      >
+      TAKE SEL
+      NAME 22-GuitarLeft-261031_1158.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 14.76920809349381
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 32303686 B
+      GUID {3050D2C9-93DC-46C4-9158-C66F1CE911D3}
+      RECPASS 51
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1158.wav"
+      >
+      TAKE
+      NAME 22-GuitarLeft-261031_1158.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 22.15381126809699
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 29655035 B
+      GUID {341490D3-A75A-AF84-0A1D-A5D687864AA2}
+      RECPASS 52
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1158.wav"
+      >
+      TAKE
+      NAME 22-GuitarLeft-261031_1158.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 29.53841444270016
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 26132879 B
+      GUID {8687836A-3619-2A5C-DAB2-2D525BF5155F}
+      RECPASS 53
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1158.wav"
+      >
+    >
+    <ITEM
+      POSITION 139.38461538461539
+      SNAPOFFS 0
+      LENGTH 30.46153846153845
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {78DE8D0C-71F5-D26E-A47E-975DB7DAE3D7}
+      IID 159
+      NAME 22-GuitarLeft-261031_1221.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 2.76924123495553
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 28642174 B
+      GUID {BA6F33DD-7C1B-42D3-879F-60E759C98B56}
+      RECPASS 79
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1221.wav"
+      >
+      TAKE
+      NAME 22-GuitarLeft-261031_1221.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 33.23076050933194
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 19978151 B
+      GUID {F4B7D112-6371-C99A-4FE3-830C500E506D}
+      RECPASS 80
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1221.wav"
+      >
+    >
+    <ITEM
+      POSITION 169.84615384615384
+      SNAPOFFS 0
+      LENGTH 7.38461538461539
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5CF618CB-3CBB-8596-FDD0-5BA9789D7257}
+      IID 162
+      NAME 22-GuitarLeft-261031_1224.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.0000087214373
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 28448613 B
+      GUID {6A5AF21A-4D14-4EB8-A85D-0D650DDBBFDF}
+      RECPASS 83
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1224.wav"
+      >
+      TAKE
+      NAME 22-GuitarLeft-261031_1224.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 7.38461189604046
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 23330711 B
+      GUID {0F37E0EE-8619-C899-A87B-1FD5767911EA}
+      RECPASS 84
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1224.wav"
+      >
+      TAKE SEL
+      NAME 22-GuitarLeft-261031_1224.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 14.76921507064364
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 24976039 B
+      GUID {B58D2B3A-BCA6-0F89-0A46-8DF1A52ACC2D}
+      RECPASS 85
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1224.wav"
+      >
+      TAKE
+      NAME 22-GuitarLeft-261031_1224.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 22.15381824524681
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 29645791 B
+      GUID {145EEC2D-3728-DF78-933A-980E81E78BD7}
+      RECPASS 86
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1224.wav"
+      >
+    >
+    <ITEM
+      POSITION 180.92307692307693
+      SNAPOFFS 0
+      LENGTH 14.76923076923075
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CE330438-C587-BEC0-586C-23A86B9E963E}
+      IID 165
+      NAME 22-GuitarLeft-261031_1227.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.00001569858713
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 24180679 B
+      GUID {00D41DDD-9126-A164-9A74-A26517A1F944}
+      RECPASS 98
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1227.wav"
+      >
+      TAKE SEL
+      NAME 22-GuitarLeft-261031_1227.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 14.76926739926741
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 28504961 B
+      GUID {9B3C8EFC-5D0C-B6D3-A618-0F4944F4A0E8}
+      RECPASS 99
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1227.wav"
+      >
+      TAKE
+      NAME 22-GuitarLeft-261031_1227.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 29.53849642421072
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 23703832 B
+      GUID {2F22BD45-7830-CA8A-678E-41A80A7273F6}
+      RECPASS 100
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1227.wav"
+      >
+      TAKE
+      NAME 22-GuitarLeft-261031_1227.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 44.30770277341706
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 28373506 B
+      GUID {7B91DD86-82CF-6003-BE04-326B1125B832}
+      RECPASS 101
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1227.wav"
+      >
+    >
+    <ITEM
+      POSITION 195.69230769230768
+      SNAPOFFS 0
+      LENGTH 14.76923076923077
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8C2E89C1-5D11-2C14-2F3B-1F960D7B89C4}
+      IID 167
+      NAME 22-GuitarLeft-261031_1229.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.00001744287457
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 28408845 B
+      GUID {EAE87696-AEEC-59F5-E502-D4FA2EE56C8C}
+      RECPASS 105
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1229.wav"
+      >
+      TAKE SEL
+      NAME 22-GuitarLeft-261031_1229.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 14.76924646781789
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 33513095 B
+      GUID {505F4FAA-39D0-967E-52AB-1FDCE5497FA3}
+      RECPASS 106
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1229.wav"
+      >
+      TAKE
+      NAME 22-GuitarLeft-261031_1229.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 29.5384754927612
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 26601266 B
+      GUID {5E70C1A1-A5F7-22DA-BB3B-4EF2FD89B204}
+      RECPASS 107
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1229.wav"
+      >
+    >
+    <ITEM
+      POSITION 210.46153846153845
+      SNAPOFFS 0
+      LENGTH 9.23076923076923
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6624FCE4-2B7B-A9EF-6924-660B3186A9B7}
+      IID 169
+      NAME 22-GuitarLeft-261031_1231.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.00001918716202
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 31889598 B
+      GUID {A7A9DEAC-8D86-2926-584C-CE02D219841C}
+      RECPASS 111
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1231.wav"
+      >
+      TAKE
+      NAME 22-GuitarLeft-261031_1231.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 11.07693528693529
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 25985614 B
+      GUID {7BF01CF1-A328-BD78-A209-72FCBF6936D2}
+      RECPASS 112
+      <SOURCE WAVE
+        FILE "Media/22-GuitarLeft-261031_1231.wav"
+      >
+    >
   >
   <TRACK {785DF10A-B3BB-F826-64AE-131F2178E0B9}
     NAME GuitarRight
@@ -4429,7 +4997,574 @@
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
-    VOLPAN 0.60461584959645 0.952 -1 -1 1
+    VOLPAN 0.60461584959645 1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 1
+    REC 0 1024 0 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {785DF10A-B3BB-F826-64AE-131F2178E0B9}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 29.53846153846154
+      SNAPOFFS 0
+      LENGTH 14.76923076923077
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9CF16022-4B07-4EAF-B93B-472FB78E95BC}
+      IID 131
+      NAME 23-GuitarRight-261031_1141.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.00000348857492
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 28018285 B
+      GUID {56202DC3-7DEB-B46D-CD0B-B81E07AE15F4}
+      RECPASS 5
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1141.wav"
+      >
+      TAKE SEL
+      NAME 23-GuitarRight-261031_1141.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 14.76923251351823
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 33530721 B
+      GUID {42222CEA-74E0-E48A-406C-C2FC7FD7995F}
+      RECPASS 6
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1141.wav"
+      >
+      TAKE
+      NAME 23-GuitarRight-261031_1141.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 29.53846153846154
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 25103539 B
+      GUID {992EEB7D-C75D-E7ED-0E98-212D81243B5F}
+      RECPASS 7
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1141.wav"
+      >
+    >
+    <ITEM
+      POSITION 59.07692307692308
+      SNAPOFFS 0
+      LENGTH 14.76923076923076
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {628319E3-4F9A-24D2-8C1F-AF799D9D482A}
+      IID 138
+      NAME 23-GuitarRight-261031_1148.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.00000697714984
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 25394175 B
+      GUID {CF143A23-96A5-92B3-71A7-9B9CF17B2C80}
+      RECPASS 20
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1148.wav"
+      >
+      TAKE
+      NAME 23-GuitarRight-261031_1148.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 14.76923600209315
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 24838031 B
+      GUID {C5B4C873-10EA-58D6-9893-AF55ADA3C8E5}
+      RECPASS 21
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1148.wav"
+      >
+      TAKE SEL
+      NAME 23-GuitarRight-261031_1148.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 29.53846502703646
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 25950897 B
+      GUID {82C567AB-F8FB-D521-E8F0-FDDC12ADDB7D}
+      RECPASS 22
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1148.wav"
+      >
+      TAKE
+      NAME 23-GuitarRight-261031_1148.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 44.30769405197977
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 27393910 B
+      GUID {7D51D954-B365-DA7F-7100-035D85E39418}
+      RECPASS 23
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1148.wav"
+      >
+    >
+    <ITEM
+      POSITION 73.84615384615384
+      SNAPOFFS 0
+      LENGTH 7.38461538461539
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2D971E8E-DE3C-1EBA-A2BF-60681D6317F7}
+      IID 140
+      NAME 23-GuitarRight-261031_1151.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.00000872143728
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 26639871 B
+      GUID {570525F0-2CD4-1329-F5E9-A08DB1706C26}
+      RECPASS 29
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1151.wav"
+      >
+      TAKE
+      NAME 23-GuitarRight-261031_1151.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 7.38461189604046
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 25143064 B
+      GUID {7494C816-07E6-6687-5EA7-4A6245B983E7}
+      RECPASS 30
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1151.wav"
+      >
+      TAKE
+      NAME 23-GuitarRight-261031_1151.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 14.76921507064364
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 28632851 B
+      GUID {C7B1DCB6-D45D-F95C-31A7-AB6EE03FBAC9}
+      RECPASS 31
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1151.wav"
+      >
+      TAKE SEL
+      NAME 23-GuitarRight-261031_1151.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 22.15381824524681
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 24155172 B
+      GUID {4CF5DA6B-9999-B445-86AE-4EE805879003}
+      RECPASS 32
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1151.wav"
+      >
+      TAKE
+      NAME 23-GuitarRight-261031_1151.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 29.53842141984999
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 28609278 B
+      GUID {49D237CD-F3C3-D61D-2D8C-6E0446DC11BC}
+      RECPASS 33
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1151.wav"
+      >
+    >
+    <ITEM
+      POSITION 96
+      SNAPOFFS 0
+      LENGTH 14.76923076923077
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BD408EFA-3EB4-3668-9130-1688DC471970}
+      IID 144
+      NAME 23-GuitarRight-261031_1157.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 33088861 B
+      GUID {637E19B7-495E-CBD6-4A03-1ABFE8057A35}
+      RECPASS 46
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1157.wav"
+      >
+      TAKE SEL
+      NAME 23-GuitarRight-261031_1157.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 14.76922902494331
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 22900080 B
+      GUID {2BEB4874-E06D-1AAE-86AA-37E033EF83C9}
+      RECPASS 47
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1157.wav"
+      >
+      TAKE
+      NAME 23-GuitarRight-261031_1157.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 29.53845804988662
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 29320729 B
+      GUID {359C6289-E86A-AF8B-1D5D-B81AE1C8A633}
+      RECPASS 48
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1157.wav"
+      >
+    >
+    <ITEM
+      POSITION 110.76923076923077
+      SNAPOFFS 0
+      LENGTH 7.38461538461539
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {86B6F19A-7E4E-E418-A9C5-8266EA539F1D}
+      IID 146
+      NAME 23-GuitarRight-261031_1159.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.00000174428746
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 32528616 B
+      GUID {65039CED-9CA3-88F9-72C3-59E5F2423AF1}
+      RECPASS 54
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1159.wav"
+      >
+      TAKE
+      NAME 23-GuitarRight-261031_1159.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 7.38460491889064
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 24051887 B
+      GUID {8D39AEDF-27C3-2E6F-1F4A-59AED21174BE}
+      RECPASS 55
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1159.wav"
+      >
+      TAKE
+      NAME 23-GuitarRight-261031_1159.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 14.76920809349381
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 26200071 B
+      GUID {312D27C7-AFA2-F650-173A-1D8EF1755EE0}
+      RECPASS 56
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1159.wav"
+      >
+      TAKE SEL
+      NAME 23-GuitarRight-261031_1159.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 22.15381126809699
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 31765142 B
+      GUID {81A2E6D0-9B15-CABC-A2BF-15E8C1CC9D42}
+      RECPASS 57
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1159.wav"
+      >
+      TAKE
+      NAME 23-GuitarRight-261031_1159.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 29.53841444270016
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 22178171 B
+      GUID {C17F6A2D-38C0-B3FD-9897-C79DEEA4290F}
+      RECPASS 58
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1159.wav"
+      >
+    >
+    <ITEM
+      POSITION 139.38461538461539
+      SNAPOFFS 0
+      LENGTH 30.46153846153845
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CE79613D-F137-E05D-A890-B357E3BEA34F}
+      IID 161
+      NAME 23-GuitarRight-261031_1222.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 2.76924123495553
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 33057233 B
+      GUID {4F80316A-FFFB-734D-1CDC-61075F7819C0}
+      RECPASS 81
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1222.wav"
+      >
+      TAKE
+      NAME 23-GuitarRight-261031_1222.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 33.23076050933194
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 27800282 B
+      GUID {F7C7EF0B-452F-AF08-B154-3F966CF96D98}
+      RECPASS 82
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1222.wav"
+      >
+    >
+    <ITEM
+      POSITION 169.84615384615384
+      SNAPOFFS 0
+      LENGTH 7.38461538461539
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {903B97C0-9074-D66E-C6ED-2F07C35DC3E2}
+      IID 163
+      NAME 23-GuitarRight-261031_1225.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.0000087214373
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 26906955 B
+      GUID {4B8CAC99-27EC-8300-88BC-2D6D6D12CD13}
+      RECPASS 87
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1225.wav"
+      >
+      TAKE SEL
+      NAME 23-GuitarRight-261031_1225.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 7.38461189604046
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 31815901 B
+      GUID {BE5DBA76-4CD4-8EE8-2420-BA1408C37AAC}
+      RECPASS 88
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1225.wav"
+      >
+      TAKE
+      NAME 23-GuitarRight-261031_1225.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 14.76921507064364
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 23581174 B
+      GUID {24FEF5CE-9BD1-19AC-A6DA-AC607BEC51F9}
+      RECPASS 89
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1225.wav"
+      >
+      TAKE
+      NAME 23-GuitarRight-261031_1225.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 22.15381824524681
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 27585672 B
+      GUID {20A439A6-82A7-8118-6FC5-D4C46B570706}
+      RECPASS 90
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1225.wav"
+      >
+    >
+    <ITEM
+      POSITION 180.92307692307693
+      SNAPOFFS 0
+      LENGTH 14.76923076923075
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {01412400-F162-9A1A-5C4B-36AE4C51518C}
+      IID 166
+      NAME 23-GuitarRight-261031_1228.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.00001569858713
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 27684360 B
+      GUID {CCD7FAE8-070C-5284-54A2-A68271F319BB}
+      RECPASS 102
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1228.wav"
+      >
+      TAKE SEL
+      NAME 23-GuitarRight-261031_1228.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 14.76926739926741
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 29841631 B
+      GUID {3FC61E19-D1A2-B1D8-B1DF-EEC38D042787}
+      RECPASS 103
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1228.wav"
+      >
+      TAKE
+      NAME 23-GuitarRight-261031_1228.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 29.53849642421072
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 20946274 B
+      GUID {4385E71B-4A87-B0EA-3D04-C7D526DD305A}
+      RECPASS 104
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1228.wav"
+      >
+    >
+    <ITEM
+      POSITION 195.69230769230768
+      SNAPOFFS 0
+      LENGTH 14.76923076923077
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {51A71E99-A5A8-E78F-0517-6CA4891F0880}
+      IID 168
+      NAME 23-GuitarRight-261031_1230.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.00001744287457
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 26183879 B
+      GUID {4F534D2B-FE8F-2044-A46B-B33993A8736A}
+      RECPASS 108
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1230.wav"
+      >
+      TAKE SEL
+      NAME 23-GuitarRight-261031_1230.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 14.76924646781789
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 30196808 B
+      GUID {4AE7DA65-14C2-0A8C-07B5-9E9CCBB106F0}
+      RECPASS 109
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1230.wav"
+      >
+      TAKE
+      NAME 23-GuitarRight-261031_1230.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 29.5384754927612
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 25904526 B
+      GUID {7785D777-1AB3-B142-CF6D-234E00CAA0BA}
+      RECPASS 110
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1230.wav"
+      >
+    >
+    <ITEM
+      POSITION 210.46153846153845
+      SNAPOFFS 0
+      LENGTH 9.23076923076923
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {A668B472-ABFC-F7E8-9FB3-08534A81858A}
+      IID 170
+      NAME 23-GuitarRight-261031_1232.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.00001918716202
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 31357415 B
+      GUID {4FB41412-F84B-0198-E653-1360E0F34E42}
+      RECPASS 113
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1232.wav"
+      >
+      TAKE SEL
+      NAME 23-GuitarRight-261031_1232.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 11.07693528693529
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 22262271 B
+      GUID {C5B18F6D-8FC3-4E75-674F-43B3835BAB38}
+      RECPASS 114
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1232.wav"
+      >
+      TAKE
+      NAME 23-GuitarRight-261031_1232.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 22.15385138670853
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 19719055 B
+      GUID {D7362153-9002-F180-6036-C5E3434A0DE1}
+      RECPASS 115
+      <SOURCE WAVE
+        FILE "Media/23-GuitarRight-261031_1232.wav"
+      >
+    >
+  >
+  <TRACK {ACC1B337-511E-5190-D44B-B8D9734FD077}
+    NAME GuitarLeft2
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.50462130506852 -1 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -4445,10 +5580,643 @@
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
-    TRACKID {785DF10A-B3BB-F826-64AE-131F2178E0B9}
+    TRACKID {ACC1B337-511E-5190-D44B-B8D9734FD077}
     PERF 0
     MIDIOUT -1 -1
     MAINSEND 1 0
+    <ITEM
+      POSITION 44.30769230769231
+      SNAPOFFS 0
+      LENGTH 14.76923076923077
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CA6E3043-61ED-EA8D-ED4E-FA9EC876D590}
+      IID 134
+      NAME 24-GuitarLeft2-261031_1143.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.00000523286238
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 24225535 B
+      GUID {1914125F-2F38-D86D-A8A9-E876997FA70A}
+      RECPASS 8
+      <SOURCE WAVE
+        FILE "Media/24-GuitarLeft2-261031_1143.wav"
+      >
+      TAKE SEL
+      NAME 24-GuitarLeft2-261031_1143.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 14.76925693354265
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 28569731 B
+      GUID {795244C7-3015-7CFA-7103-9FE5814D5F3D}
+      RECPASS 9
+      <SOURCE WAVE
+        FILE "Media/24-GuitarLeft2-261031_1143.wav"
+      >
+      TAKE
+      NAME 24-GuitarLeft2-261031_1143.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 29.53848595848596
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 31967981 B
+      GUID {181943D5-8C52-F2CF-7DC2-1D0A23B169B1}
+      RECPASS 10
+      <SOURCE WAVE
+        FILE "Media/24-GuitarLeft2-261031_1143.wav"
+      >
+    >
+    <ITEM
+      POSITION 81.23076923076923
+      SNAPOFFS 0
+      LENGTH 14.76923076923077
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {26B48449-95E3-D85F-AA6C-C46452DAEA00}
+      IID 141
+      NAME 24-GuitarLeft2-261031_1152.wav
+      VOLPAN 1 0 1 -1
+      SOFFS -0.00000174428746
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 32536776 B
+      GUID {616E38EE-B6C4-075F-E52C-02F204A92090}
+      RECPASS 34
+      <SOURCE WAVE
+        FILE "Media/24-GuitarLeft2-261031_1152.wav"
+      >
+      TAKE
+      NAME 24-GuitarLeft2-261031_1152.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 14.76922728065585
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 17090178 B
+      GUID {F6F13D87-5EA8-0559-5B41-E95E954865E7}
+      RECPASS 35
+      <SOURCE WAVE
+        FILE "Media/24-GuitarLeft2-261031_1152.wav"
+      >
+      TAKE SEL
+      NAME 24-GuitarLeft2-261031_1152.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 29.53845630559916
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 18389184 B
+      GUID {6B3B0D3F-5D45-E658-F00F-B3D9769D976B}
+      RECPASS 36
+      <SOURCE WAVE
+        FILE "Media/24-GuitarLeft2-261031_1152.wav"
+      >
+      TAKE
+      NAME 24-GuitarLeft2-261031_1152.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 44.30768533054247
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 20674444 B
+      GUID {D28F382D-A182-592D-554D-51CA5164823C}
+      RECPASS 37
+      <SOURCE WAVE
+        FILE "Media/24-GuitarLeft2-261031_1152.wav"
+      >
+    >
+  >
+  <TRACK {7B23CF2C-9A8A-DBD1-C7B2-F970699E9EDA}
+    NAME GuitarRight2
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.52591213123959 1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 1024 0 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {7B23CF2C-9A8A-DBD1-C7B2-F970699E9EDA}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 44.30769230769231
+      SNAPOFFS 0
+      LENGTH 14.76923076923077
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {865F96AD-4836-69E0-D461-31ECD0DAC8A5}
+      IID 136
+      NAME 25-GuitarRight2-261031_1145.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.00000523286238
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 33523043 B
+      GUID {D829F18B-BC7C-ED11-FF0B-4040BF2FC30E}
+      RECPASS 13
+      <SOURCE WAVE
+        FILE "Media/25-GuitarRight2-261031_1145.wav"
+      >
+      TAKE SEL
+      NAME 25-GuitarRight2-261031_1145.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 14.76925693354265
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 23418483 B
+      GUID {4AB2F9C4-27EF-B3FB-8D20-065593BCFF00}
+      RECPASS 14
+      <SOURCE WAVE
+        FILE "Media/25-GuitarRight2-261031_1145.wav"
+      >
+      TAKE
+      NAME 25-GuitarRight2-261031_1145.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 29.53848595848596
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 20699052 B
+      GUID {7F200D32-7395-B5F2-D278-E89043E16B5D}
+      RECPASS 15
+      <SOURCE WAVE
+        FILE "Media/25-GuitarRight2-261031_1145.wav"
+      >
+    >
+    <ITEM
+      POSITION 81.23076923076923
+      SNAPOFFS 0
+      LENGTH 14.76923076923077
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2599B466-A2E8-F071-9D90-A36C2DCDC402}
+      IID 142
+      NAME 25-GuitarRight2-261031_1154.wav
+      VOLPAN 1 0 1 -1
+      SOFFS -0.00000174428746
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 31744710 B
+      GUID {BFBB9A0B-E687-752D-4646-82B2B349B23F}
+      RECPASS 38
+      <SOURCE WAVE
+        FILE "Media/25-GuitarRight2-261031_1154.wav"
+      >
+      TAKE
+      NAME 25-GuitarRight2-261031_1154.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 14.76922728065585
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 25446797 B
+      GUID {645B5FD6-1144-7209-8BFA-12AF89C4B9CC}
+      RECPASS 39
+      <SOURCE WAVE
+        FILE "Media/25-GuitarRight2-261031_1154.wav"
+      >
+      TAKE SEL
+      NAME 25-GuitarRight2-261031_1154.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 29.53845630559916
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 21684840 B
+      GUID {A4CD2D48-C253-8BD5-2286-20C87CEA682A}
+      RECPASS 40
+      <SOURCE WAVE
+        FILE "Media/25-GuitarRight2-261031_1154.wav"
+      >
+      TAKE
+      NAME 25-GuitarRight2-261031_1154.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 44.30768533054247
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 33526700 B
+      GUID {D18722B7-9030-9372-BDFB-D67920A91E22}
+      RECPASS 41
+      <SOURCE WAVE
+        FILE "Media/25-GuitarRight2-261031_1154.wav"
+      >
+    >
+    <ITEM
+      POSITION 177.23076923076923
+      SNAPOFFS 0
+      LENGTH 3.69230769230771
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6432A2F6-7AC3-107F-FE71-44F86DFC1FC8}
+      IID 164
+      NAME 25-GuitarRight2-261031_1226.wav
+      VOLPAN 1 0 1 -1
+      SOFFS -0.00000174428746
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 33082612 B
+      GUID {D392509E-595A-99AA-68D4-8188A2EE09D3}
+      RECPASS 91
+      <SOURCE WAVE
+        FILE "Media/25-GuitarRight2-261031_1226.wav"
+      >
+      TAKE
+      NAME 25-GuitarRight2-261031_1226.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 3.69228850514564
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 24838073 B
+      GUID {3838861C-5DA5-8043-44EF-5E2FD4A6E960}
+      RECPASS 92
+      <SOURCE WAVE
+        FILE "Media/25-GuitarRight2-261031_1226.wav"
+      >
+      TAKE
+      NAME 25-GuitarRight2-261031_1226.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 7.38457875457874
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 20354146 B
+      GUID {BE428E92-0944-F36B-5944-2AFE7446B406}
+      RECPASS 93
+      <SOURCE WAVE
+        FILE "Media/25-GuitarRight2-261031_1226.wav"
+      >
+      TAKE
+      NAME 25-GuitarRight2-261031_1226.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 11.07686900401185
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 25517311 B
+      GUID {1F5E3DE4-B9BC-B5AE-2323-8524373D8E00}
+      RECPASS 94
+      <SOURCE WAVE
+        FILE "Media/25-GuitarRight2-261031_1226.wav"
+      >
+      TAKE
+      NAME 25-GuitarRight2-261031_1226.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 14.76918192918193
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 24772489 B
+      GUID {747ABE32-D1A7-1610-F01C-9825AF295953}
+      RECPASS 95
+      <SOURCE WAVE
+        FILE "Media/25-GuitarRight2-261031_1226.wav"
+      >
+      TAKE SEL
+      NAME 25-GuitarRight2-261031_1226.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 18.46147217861504
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 28637581 B
+      GUID {CA8B85FA-7759-65B0-91C2-FAB65CF3DEC4}
+      RECPASS 96
+      <SOURCE WAVE
+        FILE "Media/25-GuitarRight2-261031_1226.wav"
+      >
+      TAKE
+      NAME 25-GuitarRight2-261031_1226.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 22.15376242804814
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 19842475 B
+      GUID {E9D46B82-F63F-790E-9415-C103C2D7D94A}
+      RECPASS 97
+      <SOURCE WAVE
+        FILE "Media/25-GuitarRight2-261031_1226.wav"
+      >
+    >
+  >
+  <TRACK {C7F7C326-F786-DD25-0E62-3E54191DD81B}
+    NAME GuitarLeftClean
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.48985069244451 -1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 1024 0 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {C7F7C326-F786-DD25-0E62-3E54191DD81B}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 118.15384615384616
+      SNAPOFFS 0
+      LENGTH 7.38461538461537
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {04BC0113-5A06-82C4-509C-01A7C15A5091}
+      IID 151
+      NAME 26-GuitarLeftClean-261031_1204.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.00001395429967
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 25755490 B
+      GUID {8FB1CC65-0C7B-82BF-7CB2-67A9E17D4E53}
+      RECPASS 59
+      <SOURCE WAVE
+        FILE "Media/26-GuitarLeftClean-261031_1204.wav"
+      >
+      TAKE
+      NAME 26-GuitarLeftClean-261031_1204.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 7.38461712890285
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 16951912 B
+      GUID {D82CB43F-38FE-0BE4-3EBC-23DC0C684FE3}
+      RECPASS 60
+      <SOURCE WAVE
+        FILE "Media/26-GuitarLeftClean-261031_1204.wav"
+      >
+      TAKE
+      NAME 26-GuitarLeftClean-261031_1204.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 14.76922030350603
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 30049033 B
+      GUID {2DB96879-0D84-3482-ED91-5602ACC6A0E2}
+      RECPASS 61
+      <SOURCE WAVE
+        FILE "Media/26-GuitarLeftClean-261031_1204.wav"
+      >
+      TAKE
+      NAME 26-GuitarLeftClean-261031_1204.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 22.1538234781092
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 23874913 B
+      GUID {81F436D5-67F6-24EF-8671-EF0C77DF7877}
+      RECPASS 62
+      <SOURCE WAVE
+        FILE "Media/26-GuitarLeftClean-261031_1204.wav"
+      >
+      TAKE SEL
+      NAME 26-GuitarLeftClean-261031_1204.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 29.53842665271238
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 25208036 B
+      GUID {83CCEBEE-18D2-1874-0595-DDE7AE2E2916}
+      RECPASS 63
+      <SOURCE WAVE
+        FILE "Media/26-GuitarLeftClean-261031_1204.wav"
+      >
+      TAKE
+      NAME 26-GuitarLeftClean-261031_1204.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 36.92302982731555
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 26148710 B
+      GUID {E4694982-AD43-4913-5122-33F8D6872152}
+      RECPASS 64
+      <SOURCE WAVE
+        FILE "Media/26-GuitarLeftClean-261031_1204.wav"
+      >
+    >
+    <ITEM
+      POSITION 125.53846153846153
+      SNAPOFFS 0
+      LENGTH 14.76923076923079
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {ED361E5C-6708-6DC8-1FB2-1FF7F29454C5}
+      IID 153
+      NAME 26-GuitarLeftClean-261031_1206.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.00000348857492
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 23328214 B
+      GUID {C6B17637-660F-0875-675D-BDE078BDEF98}
+      RECPASS 68
+      <SOURCE WAVE
+        FILE "Media/26-GuitarLeftClean-261031_1206.wav"
+      >
+      TAKE SEL
+      NAME 26-GuitarLeftClean-261031_1206.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 14.76923251351823
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 24484351 B
+      GUID {4490A144-9C24-74C0-9AE8-988D890107EF}
+      RECPASS 69
+      <SOURCE WAVE
+        FILE "Media/26-GuitarLeftClean-261031_1206.wav"
+      >
+      TAKE
+      NAME 26-GuitarLeftClean-261031_1206.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 29.53846153846154
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 24641425 B
+      GUID {6294BED7-7199-6BF0-4388-F9393C5ADBC2}
+      RECPASS 70
+      <SOURCE WAVE
+        FILE "Media/26-GuitarLeftClean-261031_1206.wav"
+      >
+    >
+  >
+  <TRACK {7573228A-8F9D-6374-03D9-C7CFCAF8C197}
+    NAME GuitarRightClean
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.53526003901476 1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 1024 0 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {7573228A-8F9D-6374-03D9-C7CFCAF8C197}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 118.15384615384616
+      SNAPOFFS 0
+      LENGTH 7.38461538461537
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7C3B322A-3725-92E3-F57D-ED5959FB2BF9}
+      IID 152
+      NAME 27-GuitarRightClean-261031_1205.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.00001395429967
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 26002697 B
+      GUID {C1BFA548-A0B9-8761-ECBE-BE513065D18A}
+      RECPASS 65
+      <SOURCE WAVE
+        FILE "Media/27-GuitarRightClean-261031_1205.wav"
+      >
+      TAKE SEL
+      NAME 27-GuitarRightClean-261031_1205.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 7.38461712890285
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 32606006 B
+      GUID {B23A6BFA-FB0C-2B1A-53C2-547AF6F68DAC}
+      RECPASS 66
+      <SOURCE WAVE
+        FILE "Media/27-GuitarRightClean-261031_1205.wav"
+      >
+      TAKE
+      NAME 27-GuitarRightClean-261031_1205.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 14.76922030350603
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 26614476 B
+      GUID {80A0BCFA-6D6A-8D95-2D3D-A0556E09EF1F}
+      RECPASS 67
+      <SOURCE WAVE
+        FILE "Media/27-GuitarRightClean-261031_1205.wav"
+      >
+    >
+    <ITEM
+      POSITION 125.53846153846153
+      SNAPOFFS 0
+      LENGTH 14.76923076923079
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {33A87569-061C-F978-F80D-4B1CFCAD229F}
+      IID 154
+      NAME 27-GuitarRightClean-261031_1207.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.00000348857492
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 26146745 B
+      GUID {DE9B3C7A-9000-D556-ECA0-0E86A878DB44}
+      RECPASS 71
+      <SOURCE WAVE
+        FILE "Media/27-GuitarRightClean-261031_1207.wav"
+      >
+      TAKE
+      NAME 27-GuitarRightClean-261031_1207.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 14.76923251351823
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 31681743 B
+      GUID {3DAA40B1-84C6-CF3A-4669-D595479FAAFF}
+      RECPASS 72
+      <SOURCE WAVE
+        FILE "Media/27-GuitarRightClean-261031_1207.wav"
+      >
+      TAKE SEL
+      NAME 27-GuitarRightClean-261031_1207.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 29.53846153846154
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 29092752 B
+      GUID {401EF944-0F50-AF47-A561-CF00D2089B6E}
+      RECPASS 73
+      <SOURCE WAVE
+        FILE "Media/27-GuitarRightClean-261031_1207.wav"
+      >
+      TAKE
+      NAME 27-GuitarRightClean-261031_1207.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 44.30769056340485
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 22400217 B
+      GUID {34E24CA7-33B1-3B3E-A6D7-B2DBDDBD02EB}
+      RECPASS 74
+      <SOURCE WAVE
+        FILE "Media/27-GuitarRightClean-261031_1207.wav"
+      >
+    >
   >
   <TRACK {9FD8B223-C135-2A60-0196-12CC4C25D70C}
     NAME Bass
